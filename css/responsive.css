@@ -39,4 +39,9 @@
   .ads{
     display: block;
   }
+  /*l'immagine nella descrizione della ricetta viene circondata dal testo*/
+ .presentation img{
+  float: left;
+  margin-right: 10px;
+ } 
 }
