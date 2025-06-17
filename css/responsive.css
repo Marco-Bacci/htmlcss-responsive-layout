@@ -76,5 +76,13 @@
   .quick-notes li {
     width: 100%;
   }
-
+/*Compaiono i nomi delle piattaforme social*/
+.social-networks .label{
+  display: inline-block;
+}
+.btn{
+  font-size: 14px;
+  padding: 10px 30px;
+}  
+  
 }
