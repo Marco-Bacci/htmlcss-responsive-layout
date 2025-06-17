@@ -10,11 +10,23 @@
   }
 
   /*Compare il testo "(Dolce Tradizionale)"*/
-  .recipe-origin{
+  .recipe-origin {
     display: inline-block;
   }
-  /*Compare il testo "(Dolce Tradizionale)"*/
-  .recipe-title{
+
+  /*La grandezza del titolo diventa più grande*/
+  .recipe-title {
     font-size: 1.7em;
   }
+
+  /*Le informazioni della ricetta sotto il video si dispongono a griglia*/
+  .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .quick-notes li {
+    width: calc(100%/3);
+  }
+
 }
