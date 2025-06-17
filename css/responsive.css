@@ -16,7 +16,7 @@
 
   /*La grandezza del titolo diventa più grande*/
   .recipe-title {
-    font-size: 1.7em;
+    font-size: 1.3em;
   }
 
   /*Le informazioni della ricetta sotto il video si dispongono a griglia*/
@@ -24,24 +24,38 @@
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .quick-notes li {
     width: calc(100%/3);
   }
-  
+
   /*I bottoni social si allargano*/
-  .btn{
+  .btn {
     font-size: 18px;
     padding: 10px 50px;
     border-radius: 50px;
   }
+
   /*compare il banner pubblicitario*/
-  .ads{
+  .ads {
     display: block;
   }
+
   /*l'immagine nella descrizione della ricetta viene circondata dal testo*/
- .presentation img{
-  float: left;
-  margin-right: 10px;
- } 
+  .presentation img {
+    float: left;
+    margin-right: 10px;
+  }
+}
+
+/**************DESKTOP****************/
+/**************DESKTOP****************/
+
+/*La grandezza del titolo della ricetta aumenta ancora di più*/
+@media all and (min-width:992px) {
+  .recipe-title {
+    font-size: 1.4em;
+  }
+
+  
 }
