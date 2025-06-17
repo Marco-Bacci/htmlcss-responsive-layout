@@ -24,9 +24,15 @@
     display: flex;
     flex-wrap: wrap;
   }
-
+  
   .quick-notes li {
     width: calc(100%/3);
   }
-
+  
+  /*I bottoni social si allargano*/
+  .btn{
+    font-size: 18px;
+    padding: 10px 50px;
+    border-radius: 50px;
+  }
 }
