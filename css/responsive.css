@@ -60,5 +60,21 @@
   /*Le informazioni della ricetta tornano a disporsi una sotto l'altra*/
   .quick-notes ul {
     display: block;
-}
+  }
+
+  /*Il video e le altre informazioni della ricetta si dispongono uno accanto all'altro*/
+  .recipe-card {
+    display: flex;
+  }
+
+  .recipe-video {
+    width: 70%;
+    height: 36vw;
+
+  }
+
+  .quick-notes li {
+    width: 100%;
+  }
+
 }
