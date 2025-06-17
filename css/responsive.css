@@ -57,5 +57,8 @@
     font-size: 1.4em;
   }
 
-  
+  /*Le informazioni della ricetta tornano a disporsi una sotto l'altra*/
+  .quick-notes ul {
+    display: block;
+}
 }
