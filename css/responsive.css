@@ -94,9 +94,24 @@
     align-items: center;
   }
 
-  address{
+  address {
     text-align: left;
   }
 
+}
 
+/**************BONUS***************/
+/*img circondata dal testo*/
+@media all and (min-width:576px) {
+  .presentation img {
+    float: left;
+    margin-right: 10px;
+  }
+
+  /*img circondata dal testo*/
+  .btn {
+    font-size: 15px;
+    padding: 6px 30px;
+    border-radius: 50px;
+  }
 }

@@ -31,7 +31,7 @@ Nel footer i dati del sito e il menu di navigazione di dispongono sulla stessa l
 Modalità Large Mobile (576px)
 
 l'immagine nella descrizione della ricetta viene circondata dal testo anche su mobile ma solo se c'è spazio sufficiente, quindi a partire da 576px
-I bottoni social si allagano già su dispositivi mobile più grandetti (576px)
+I bottoni social si allargano già su dispositivi mobile più grandetti (576px)
 
 Info
 
