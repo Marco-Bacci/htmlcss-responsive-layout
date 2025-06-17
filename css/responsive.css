@@ -13,4 +13,8 @@
   .recipe-origin{
     display: inline-block;
   }
+  /*Compare il testo "(Dolce Tradizionale)"*/
+  .recipe-title{
+    font-size: 1.7em;
+  }
 }
