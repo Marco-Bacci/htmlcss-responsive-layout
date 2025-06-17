@@ -35,4 +35,8 @@
     padding: 10px 50px;
     border-radius: 50px;
   }
+  /*compare il banner pubblicitario*/
+  .ads{
+    display: block;
+  }
 }
