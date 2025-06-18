@@ -1,4 +1,21 @@
+/**************BONUS***************/
+/*img circondata dal testo*/
+@media all and (min-width:576px) {
+  .presentation img {
+    float: left;
+    margin-right: 10px;
+  }
+
+  /*img circondata dal testo*/
+  .btn {
+    font-size: 15px;
+    padding: 6px 30px;
+    border-radius: 50px;
+  }
+}
+
 /*Il logo nell'header si allinea a sinistra*/
+
 @media screen and (min-width:768px) {
   #topbar {
     justify-content: flex-start;
@@ -11,7 +28,7 @@
 
   /*Compare il testo "(Dolce Tradizionale)"*/
   .recipe-origin {
-    display: inline-block;
+    display: inline;
   }
 
   /*La grandezza del titolo diventa più grande*/
@@ -44,7 +61,7 @@
   /*l'immagine nella descrizione della ricetta viene circondata dal testo*/
   .presentation img {
     float: left;
-    margin-right: 10px;
+    margin-right: 10px;*/
   }
 }
 
@@ -69,8 +86,12 @@
 
   .recipe-video {
     width: 70%;
-    height: 36vw;
+    max-height: 420px;
 
+  }
+
+  .recipe-info {
+    width: 30%;
   }
 
   .quick-notes li {
@@ -98,20 +119,4 @@
     text-align: left;
   }
 
-}
-
-/**************BONUS***************/
-/*img circondata dal testo*/
-@media all and (min-width:576px) {
-  .presentation img {
-    float: left;
-    margin-right: 10px;
-  }
-
-  /*img circondata dal testo*/
-  .btn {
-    font-size: 15px;
-    padding: 6px 30px;
-    border-radius: 50px;
-  }
 }
